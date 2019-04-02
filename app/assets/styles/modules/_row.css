@@ -10,6 +10,10 @@
         padding-right:65px;
     }
 
+    &__b-margin-until-medium{
+        margin-bottom: 1rem;
+    }
+
     
     @mixin atMedium{
 
@@ -28,8 +32,8 @@
             width: 66.66%;
         }
 
-    
-
-      
+        &__b-margin-until-medium{
+            margin-bottom: 0;
+        }
     }
 }
