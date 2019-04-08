@@ -1,7 +1,10 @@
-var Person = require('./modules/Person.js')
+var $ = require('jquery');
+var Person = require('./modules/Person');
 
-var john = new personalbar("John Doe", "blue");
+var john = new Person("John Doe", "blue");
 john.greet();
 
-var jane = new personalbar("Jane Smith", "green");
+var jane = new Person("Jane Smith", "green");
 jane.greet();
+
+$("h1").remove();
