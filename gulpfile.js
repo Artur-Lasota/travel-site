@@ -1,6 +1,6 @@
-require('./app/gulp/tasks/styles.js');
-require('./app/gulp/tasks/watch.js');
-require('./app/gulp/tasks/scripts.js');
+require('./gulp/tasks/styles.js');
+require('./gulp/tasks/watch.js');
+require('./gulp/tasks/scripts.js');
 
 var gulp = require('gulp');
 
